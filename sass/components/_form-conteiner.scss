@@ -1,0 +1,63 @@
+.form-conteiner {
+    margin-left: 93px;
+}
+
+.form-conteiner__post {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.footer-form {
+    display: flex;
+    align-items: center;
+}
+
+.footer-form__input {
+    padding-left: 16px;
+
+    width: 358px;
+    height: 50px;
+
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+    background-color: #2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    outline: none;
+}
+
+.footer-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+
+    width: 200px;
+    height: 50px;
+    background-color: $acent-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.footer-button__icon {
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+}

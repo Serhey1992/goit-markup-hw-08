@@ -1,0 +1,60 @@
+.customers {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.customer__link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    color: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover, &:focus{
+            color: $acent-color;
+            border-color: $acent-color;
+        }
+}
+.customer__ya-and-co-icon {
+    width: 41px;
+    height: 46px;
+    fill: currentColor;
+}
+
+.customer__tagline-icon {
+    width: 40px;
+    height: 52px;
+    fill: currentColor;
+}
+
+.customer__company-icon {
+    width: 44px;
+    height: 40px;
+    fill: currentColor;
+}
+
+.customer__foster-icon {
+    width: 84px;
+    height: 40px;
+    fill: currentColor;
+}
+
+.customer__brand-icon {
+    width: 62.54px;
+    height: 45.43px;
+    fill: currentColor;
+}
+
+.customer__tag-line-icon {
+    width: 94px;
+    height: 44px;
+    fill: currentColor;
+}
