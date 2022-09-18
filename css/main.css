@@ -39,9 +39,11 @@ body {
   align-items: center;
 }
 
-.conteiner--centering-baseline {
-  display: flex;
-  align-items: baseline;
+@media screen and (min-width: 1200px) {
+  .conteiner--centering-baseline {
+    display: flex;
+    align-items: baseline;
+  }
 }
 
 .logo {
@@ -75,6 +77,11 @@ body {
 }
 .site-nav__item + .site-nav__item {
   margin-left: 50px;
+}
+@media screen and (max-width: 767px) {
+  .site-nav {
+    display: none;
+  }
 }
 
 .site-nav__link {
@@ -116,6 +123,11 @@ body {
 }
 .feedback__item + .feedback__item {
   margin-left: 50px;
+}
+@media screen and (max-width: 767px) {
+  .feedback {
+    display: none;
+  }
 }
 
 .feedback__link {
@@ -201,6 +213,11 @@ body {
   padding-top: 0px;
 }
 
+@media screen and (max-width: 1199px) {
+  .section-hidden {
+    display: none;
+  }
+}
 .section--backgraund {
   background-color: #F5F4FA;
 }
