@@ -3,21 +3,7 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    max-width: 480px;
-    width: 100%;
-    
-    @media screen and (min-width: 480px) {
-        width: 480px;
-        max-width: auto;
-    }
-
-    @media screen and (min-width: 768px) {
-        width: 768px;
-    }
-    
-    @media screen and (min-width: 1200px) {
-        width: 1200px;
-    }
+    width: 1200px;
 }
 .conteiner--centering {
     display: flex;
@@ -25,9 +11,6 @@
 }
 
 .conteiner--centering-baseline {
-    
-    @media screen and (min-width: 1200px) {
-        display: flex;
-        align-items: baseline;
-    }
+    display: flex;
+    align-items: baseline;
 }

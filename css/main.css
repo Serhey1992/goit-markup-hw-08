@@ -31,24 +31,7 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  max-width: 480px;
-  width: 100%;
-}
-@media screen and (min-width: 480px) {
-  .conteiner {
-    width: 480px;
-    max-width: auto;
-  }
-}
-@media screen and (min-width: 768px) {
-  .conteiner {
-    width: 768px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .conteiner {
-    width: 1200px;
-  }
+  width: 1200px;
 }
 
 .conteiner--centering {
@@ -56,11 +39,9 @@ body {
   align-items: center;
 }
 
-@media screen and (min-width: 1200px) {
-  .conteiner--centering-baseline {
-    display: flex;
-    align-items: baseline;
-  }
+.conteiner--centering-baseline {
+  display: flex;
+  align-items: baseline;
 }
 
 .logo {
@@ -94,11 +75,6 @@ body {
 }
 .site-nav__item + .site-nav__item {
   margin-left: 50px;
-}
-@media screen and (max-width: 767px) {
-  .site-nav {
-    display: none;
-  }
 }
 
 .site-nav__link {
@@ -141,11 +117,6 @@ body {
 .feedback__item + .feedback__item {
   margin-left: 50px;
 }
-@media screen and (max-width: 767px) {
-  .feedback {
-    display: none;
-  }
-}
 
 .feedback__link {
   display: inline-flex;
@@ -178,35 +149,18 @@ body {
   fill: currentColor;
 }
 
-.menu-button {
-  display: inline-flex;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  border: none;
-  background-color: transparent;
-  width: 40px;
-  height: 40px;
-}
-
-.menu-button_icon {
-  fill: currentColor;
-}
-
-@media screen and (min-width: 1200px) {
-  .hero-section {
-    max-width: 1600px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-img-bg.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-color: #2F303A;
-    text-align: center;
-  }
+.hero-section {
+  max-width: 1600px;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-img-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: #2F303A;
+  text-align: center;
 }
 
 .hero-section__title {
@@ -249,12 +203,6 @@ body {
 
 .section--backgraund {
   background-color: #F5F4FA;
-}
-
-@media screen and (max-width: 1199px) {
-  .section--hidden {
-    display: none;
-  }
 }
 
 .section__title {

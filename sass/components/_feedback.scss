@@ -6,11 +6,6 @@
     &__item+ &__item{
         margin-left: 50px;
     }
-   
-    @media screen and(max-width: 767px) {
-        display: none;
-    
-    }
 }
 .feedback__link{
     display: inline-flex;
