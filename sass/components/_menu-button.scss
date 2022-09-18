@@ -1,13 +1,13 @@
-.menu-button{
+.menu-toggle{
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     margin: 0;
     padding: 0;
     border: none;
     background-color: transparent;
     width: 40px;
     height: 40px;
-}
-.menu-button_icon{
-    fill: currentColor;
+    cursor: pointer;
+    outline: none;
 }
