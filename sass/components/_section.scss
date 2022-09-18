@@ -9,6 +9,12 @@
 .section--backgraund {
     background-color: #F5F4FA;
 }
+.section--hidden{
+    @media screen and(max-width: 1199px) {
+        display: none;
+    
+    }
+}
 .section__title {
     margin-bottom: 50px;
 
