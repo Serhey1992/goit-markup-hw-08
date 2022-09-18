@@ -1,5 +1,4 @@
 .logo {
-    width: 145px;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -12,10 +11,13 @@
     }
 }
 .logo--color{
-    display: inline-block;
-    margin-bottom: 20px;
-   
-    color: $primary-bcg-color;
+    @media screen and(min-width: 1200px) {
+        display: inline-block;
+        margin-bottom: 20px;
+        
+        color: $primary-bcg-color;
+        
+    }
 }
 .logo__style {
     color: $acent-color;
