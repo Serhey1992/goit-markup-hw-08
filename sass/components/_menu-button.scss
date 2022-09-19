@@ -48,14 +48,20 @@
     right: 15px;
     color: #fff;
 }
-
-.mobile-menu {
+.js-close-menu:hover,
+.js-close-menu:focus .menu-toggle__icon-close{
+    color: $title-text-color;
+}
+.menu-toggle__svg {
+    color: $title-text-color;
+}
+.menu-toggle__icon-close {
+    fill: currentColor;
+}
+.mobile-navigation{
     padding: 0;
     margin: 0;
-    list-style: none;
-}
-.mobile-navigation,
-.mobile-feedback{
+    margin-bottom: 302px;
     list-style: none;
 }
 .mobile-navigation__item{
@@ -72,25 +78,78 @@
     color: $title-text-color;
     text-decoration: none;
 }
-.mobile-feedback__item-mail{
+.mobile-navigation__link:hover,
+.mobile-navigation__link:focus{
+    color: $acent-color;
+}
+.mobile-contact {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 64px;
+    list-style: none;
+}
+.mobile-contact__item-mail{
     margin-bottom: 32px;
 }
-.mobile-feedback__item-phone{
+.mobile-contact__item-phone{
     margin-bottom: 64px;
 }
-.mobile-feedback__link-mail{
+.mobile-contact__link-mail{
     font-weight: 500;
     font-size: 34px;
     line-height: 1.17;
     letter-spacing: 0.02em;
     
     color: $primary-text-color;
+    text-decoration: none;
 }
-.mobile-feedback__link-phone{
+.mobile-contact__link-phone{
     font-weight: 500;
     font-size: 24px;
     line-height: 1.16;
     letter-spacing: 0.02em;
     
     color: $primary-text-color;
+    text-decoration: none;
+}
+.mobile-contact__link-mail:hover,
+.mobile-contact__link-mail:focus{
+    color: $acent-color;
+}
+.mobile-contact__link-phone:hover,
+.mobile-contact__link-phone:focus {
+    color: $acent-color;
+}
+.mobile-social{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.mobile-social__item + .mobile-social__item{
+    margin-left: 20px;
+}
+.mobile-social__link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    position: relative;
+
+
+    color: $acent-color;
+
+    &::after{
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+    display: block;
+    content: " ";
+    width: 1px;
+    height: 100%;
+    border-radius: 1px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    }
 }
