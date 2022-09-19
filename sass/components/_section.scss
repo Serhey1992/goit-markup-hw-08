@@ -1,9 +1,18 @@
 .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
 
-    &:nth-child(3){
-        padding-top: 0px;
+    @media screen and(min-width:480px){
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+
+    @media screen and(min-width:1200px) {
+        padding-top: 94px;
+         padding-bottom: 94px;
+        
+        &:nth-child(3) {
+            padding-top: 0px;
+        }
+        
     }
 }
 @media screen and(max-width :1199px) {
@@ -16,8 +25,6 @@
     background-color: #F5F4FA;
 }
 .section__title {
-    margin-bottom: 50px;
-
     color: $title-text-color;
     font-weight: 700;
     font-size: 36px;
@@ -26,5 +33,13 @@
 
     &--hidden{
         display: none;
+    }
+
+    @media screen and(min-width: 480px) {
+        margin-bottom: 30px;
+    }
+
+    @media screen and(min-width: 1200px){
+        margin-bottom: 50px;
     }
 }
