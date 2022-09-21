@@ -8,7 +8,7 @@
 
     @media screen and(min-width: 480px) {
         width: 480px;
-        max-width: auto; 
+        // max-width: auto; 
     }
 
     @media screen and(min-width: 768px) {
@@ -28,9 +28,23 @@
 }
 
 .conteiner--centering-baseline {
+    @media screen and(max-width: 767px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     @media screen and(min-width: 1200px) {
         display: flex;
         align-items: baseline;
     
+    }
+}
+.address-container{
+    @media screen and(max-width: 767px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

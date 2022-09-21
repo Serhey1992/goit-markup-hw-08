@@ -1,23 +1,28 @@
 .logo {
     font-family: 'Raleway';
     font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
     letter-spacing: 0.03em;
     color: #000000;
     text-decoration: none;
     &:focus{
         color: $acent-color;
     }
+    
+    @media screen and(max-width: 767px){
+        font-size: 24px;
+        line-height: 1.16;
+    }
+
+    @media screen and(min-width: 1200px){
+        font-size: 26px;
+        line-height: 1.2;
+    }
+
 }
 .logo--color{
-    @media screen and(min-width: 1200px) {
-        display: inline-block;
-        margin-bottom: 20px;
-        
-        color: $primary-bcg-color;
-        
-    }
+    display: inline-block;
+    margin-bottom: 20px;
+    color: $primary-bcg-color;
 }
 .logo__style {
     color: $acent-color;
