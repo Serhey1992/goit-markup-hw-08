@@ -41,13 +41,16 @@
 .menu-container.is-open {
     transform: translateX(0);
 }
-
 .menu-container .menu-toggle {
     position: absolute;
     top: 10px;
     right: 15px;
-    color: $title-text-color;
-
+    fill: $title-text-color;
+    cursor: pointer;
+}
+.menu-toggle--close:hover,
+.menu-toggle--close:focus .menu-toggle__icon-close{
+    color: $acent-color;
 }
 .mobile-navigation{
     padding: 0;

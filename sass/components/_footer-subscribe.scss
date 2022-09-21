@@ -2,6 +2,11 @@
     margin-left: 70px;
     width: 206px;
     height: 80px;
+
+    @media screen and(max-width: 767px) {
+        margin-left: 0;
+        margin-bottom: 60px;
+    }
 }
 
 .footer-subscribe__title {
@@ -14,6 +19,10 @@
     text-transform: uppercase;
 
     color: #FFFFFF;
+
+    @media screen and(max-width: 767px) {
+        text-align: center;
+    }
 }
 .networks {
     display: flex;
