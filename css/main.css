@@ -412,18 +412,18 @@ body {
   background-color: #2F303A;
   text-align: center;
 }
-@media screen and (max-width: 767px) {
-  .hero-section {
-    max-width: 480px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/mobile/Header\ img.jpg);
-    padding-top: 118px;
-    padding-bottom: 118px;
-  }
-}
 @media screen and (max-width: 1199px) {
   .hero-section {
     max-width: 768px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/tablet/Header\ img.jpg);
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero-section {
+    max-width: 480px;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/mobile/Header\ img.jpg);
     padding-top: 118px;
     padding-bottom: 118px;
   }
@@ -489,7 +489,7 @@ body {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .section {
     padding-bottom: 60px;
     padding-top: 60px;
@@ -524,7 +524,7 @@ body {
 .section__title--hidden {
   display: none;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .section__title {
     margin-bottom: 30px;
   }
@@ -538,12 +538,26 @@ body {
 .benefits {
   list-style: none;
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .benefits {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .benefits {
     display: flex;
   }
   .benefits__item + .benefits__item {
     margin-left: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .benefits__item {
+    width: 354px;
   }
 }
 
@@ -557,6 +571,11 @@ body {
   margin-bottom: 30px;
 }
 @media screen and (max-width: 767px) {
+  .benefits__conteiner {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
   .benefits__conteiner {
     width: 100%;
   }
@@ -640,6 +659,14 @@ body {
     align-items: center;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .team {
     display: flex;
@@ -675,6 +702,11 @@ body {
 @media screen and (max-width: 767px) {
   .team__image {
     width: 450px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .team__image {
+    width: 354px;
   }
 }
 

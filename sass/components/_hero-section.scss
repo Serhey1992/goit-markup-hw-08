@@ -9,20 +9,19 @@
     background-color: #2F303A;
     text-align: center;
     
-    @media screen and(max-width: 767px) {
-        max-width: 480px;
-        background-image: linear-gradient(to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)), url(../../images/mobile/Header\ img.jpg);
-        padding-top: 118px;
-        padding-bottom: 118px;
-    }
-
     @media screen and(max-width: 1199px) {
         max-width: 768px;
         background-image: linear-gradient(to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)), url(../../images/tablet/Header\ img.jpg);
+        padding-top: 118px;
+        padding-bottom: 118px;
+    }
+    @media screen and(max-width: 767px) {
+        max-width: 480px;
+        background-image: linear-gradient(to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)), url(../../images/mobile/Header\ img.jpg);
         padding-top: 118px;
         padding-bottom: 118px;
         }
