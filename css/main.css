@@ -333,9 +333,20 @@ body {
 .feedback__item + .feedback__item {
   margin-left: 50px;
 }
+@media screen and (max-width: 1199px) {
+  .feedback__item + .feedback__item {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
 @media screen and (max-width: 767px) {
   .feedback {
     display: none;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .feedback {
+    flex-direction: column;
   }
 }
 
@@ -355,6 +366,14 @@ body {
 .feedback__link:hover, .feedback__link:focus {
   color: #2196F3;
 }
+@media screen and (max-width: 1199px) {
+  .feedback__link {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 12px;
+    line-height: 1.16;
+  }
+}
 
 .feedback__envelope {
   width: 16px;
@@ -362,12 +381,26 @@ body {
   margin-right: 10px;
   fill: currentColor;
 }
+@media screen and (max-width: 1199px) {
+  .feedback__envelope {
+    width: 14px;
+    height: 10px;
+    margin-right: 8px;
+  }
+}
 
 .feedback__smartfon {
   width: 10px;
   height: 16px;
   margin-right: 10px;
   fill: currentColor;
+}
+@media screen and (max-width: 1199px) {
+  .feedback__smartfon {
+    width: 10px;
+    height: 14px;
+    margin-right: 8px;
+  }
 }
 
 .hero-section {
@@ -383,6 +416,14 @@ body {
   .hero-section {
     max-width: 480px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/mobile/Header\ img.jpg);
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .hero-section {
+    max-width: 768px;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/tablet/Header\ img.jpg);
     padding-top: 118px;
     padding-bottom: 118px;
   }

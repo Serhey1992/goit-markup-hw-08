@@ -5,11 +5,17 @@
     list-style: none;
     &__item+ &__item{
         margin-left: 50px;
+        @media screen and(max-width: 1199px){
+            margin-left: 0px;
+            margin-top: 10px;
+        }
     }
 
     @media screen and(max-width: 767px) {
         display: none;
-    
+    }
+    @media screen and(max-width: 1199px){
+        flex-direction: column;
     }
 }
 .feedback__link{
@@ -29,16 +35,32 @@
     &:hover, &:focus{
         color: $acent-color;
     }
+    @media screen and(max-width: 1199px) {
+        padding-top: 0;
+        padding-bottom: 0;
+        font-size: 12px;
+        line-height: 1.16;
+    }
 }
 .feedback__envelope {
     width: 16px;
     height: 12px;
     margin-right: 10px;
     fill: currentColor;
+    @media screen and(max-width: 1199px){
+        width: 14px;
+        height: 10px;
+        margin-right: 8px;
+    }
 }
 .feedback__smartfon {
     width: 10px;
     height: 16px;
     margin-right: 10px;
     fill: currentColor;
+    @media screen and(max-width: 1199px) {
+        width: 10px;
+        height: 14px;
+        margin-right: 8px;
+    }
 }
