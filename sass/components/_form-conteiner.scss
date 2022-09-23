@@ -6,9 +6,10 @@
         flex-direction: column;
         text-align: center;
         width: 100%;
-
         margin-left: 0;
-        
+    }
+    @media screen and(min-width: 768px) and(max-width: 1199px){
+        margin-left: 0;
     }
 }
 
@@ -22,6 +23,10 @@
     text-transform: uppercase;
 
     color: #FFFFFF;
+
+    @media screen and(min-width: 768px) and(max-width: 1199px) {
+        text-align: center;
+    }
 }
 
 .footer-form {
@@ -29,6 +34,12 @@
     align-items: center;
 
     @media screen and(max-width: 767px){
+        flex-direction: column;
+    }
+
+    @media screen and(max-width:1199px) {
+        display: flex;
+        align-items: center;
         flex-direction: column;
     }
 }
@@ -56,6 +67,11 @@
     @media screen and(max-width: 767px){
         margin-bottom: 20px;
         width: 100%;
+    }
+
+    @media screen and(min-width: 768px) and(max-width: 1199px){
+        width: 450px;
+        margin-bottom: 20px;
     }
 }
 
