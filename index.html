@@ -99,7 +99,16 @@
                 <ul class="actings">
                     <li class="actings__item">
                         <div class="actings__container">
-                            <img src="./images/pc.jpg" alt="ноутбук" width="370" class="actings__image">
+                            <picture>
+                                <source srcset="./images/pc-web.webp 1x, ./images/pc-web@2x.webp 2x" 
+                                media="(min-width: 1200px)" 
+                                type="image/webp"/>
+                                
+                                <source srcset="./images/pc.jpg 1x, ./images/pc@2x.jpg 2x" 
+                                media="(min-width: 1200px)"/>
+
+                                <img src="./images/pc.jpg" alt="ноутбук" class="actings__image">
+                            </picture>
                             <div class="actings__post-container">
                                 <p class="actings__post">Десктопні додатки</p>
                             </div>
@@ -107,7 +116,16 @@
                     </li>
                     <li class="actings__item">
                         <div class="actings__container">
-                            <img src="./images/phone.jpg" alt="телефон" width="370" class="actings__image">
+                            <picture>
+                                <source srcset="./images/phone-web.webp 1x, ./images/phone-web@2x.webp 2x" 
+                                media="(min-width: 1200px)" 
+                                type="image/webp"/>
+                                
+                                <source srcset="./images/phone.jpg 1x, ./images/phone@2x.jpg 2x" 
+                                media="(min-width: 1200px)"/>
+
+                                <img src="./images/phone.jpg" alt="телефон" class="actings__image">
+                            </picture>
                             <div class="actings__post-container">
                                 <p class="actings__post">Мобільні додатки</p>
                             </div>
@@ -115,7 +133,16 @@
                     </li>
                     <li class="actings__item">
                         <div class="actings__container">
-                            <img src="./images/tablet.jpg" alt="планшет" width="370" class="actings__image">
+                            <picture>
+                                <source srcset="./images/tablet-web.webp 1x, ./images/tablet-web@2x.webp 2x" 
+                                    media="(min-width: 1200px)"
+                                    type="image/webp" />
+                                
+                                <source srcset="./images/tablet.jpg 1x, ./images/tablet@2x.jpg 2x"
+                                    media="(min-width: 1200px)" />
+
+                                <img src="./images/tablet.jpg" alt="планшет" class="actings__image">
+                            </picture>
                             <div class="actings__post-container">
                                 <p class="actings__post">Дизайнерські рішення</p>
                             </div>
@@ -129,7 +156,30 @@
                 <h2 class="section__title">Наша команда</h2>
                 <ul class="team">
                     <li class="team__item">
-                        <img src="images/Ihor.jpg" alt="фото Ігор Дем'яненко" width="270" class="team__image">
+                        <picture>
+                            <source srcset="./images/Ihor-web.webp 1x, ./images/Ihor-web@2x.webp 2x" 
+                            media="(min-width: 1200px)"
+                            type="image/webp">
+
+                            <source srcset="./images/Ihor.jpg 1x, ./images/Ihor@2x.jpg 2x" 
+                            media="(min-width: 1200px)">
+
+                            <source srcset="./images/Ihor-web.webp 1x, ./images/Ihor-web@2x.webp 2x" 
+                            media="(min-width: 768px)" 
+                            type="image/webp">
+                            
+                            <source srcset="./images/Ihor.jpg 1x, ./images/Ihor@2x.jpg 2x" 
+                            media="(min-width: 768px)">
+
+                            <source srcset="./images/Ihor-web.webp 1x, ./images/Ihor-web@2x.webp 2x" 
+                            media="(max-width: 767px)" 
+                            type="image/webp">
+                            
+                            <source srcset="./images/Ihor.jpg 1x, ./images/Ihor@2x.jpg 2x" 
+                            media="(max-width: 767px)">
+
+                            <img src="images/Ihor.jpg" alt="фото Ігор Дем'яненко" class="team__image">
+                        </picture>
                         <h3 class="team__title">Ігор Дем'яненко</h3>
                         <p class="team__post">Product Designer</p>
                         <ul class="social-networks">
@@ -164,7 +214,30 @@
                         </ul>
                     </li>
                     <li class="team__item">
-                        <img src="images/Olha.jpg" alt="фото Ольга Рєпіна" width="270" class="team__image">
+                        <picture>
+                            <source srcset="./images/Olha-web.webp 1x, ./images/Olha-web@2x.webp 2x" 
+                            media="(min-width: 1200px)" 
+                            type="image/webp">
+                            
+                            <source srcset="./images/Olha.jpg 1x, ./images/Olha@2x.jpg 2x" 
+                            media="(min-width: 1200px)">
+                            
+                            <source srcset="./images/tablet/Olha-web.webp 1x, ./images/tablet/Olha-web@2x.webp 2x" 
+                            media="(min-width: 768px)" 
+                            type="image/webp">
+                            
+                            <source srcset="./images/tablet/Olha.jpg 1x, ./images/tablet/Olha@2x.jpg 2x" 
+                            media="(min-width: 768px)">
+                            
+                            <source srcset="./images/mobile/Olha-web.webp 1x, ./images/mobile/Olha-web@2x.webp 2x" 
+                            media="(max-width: 767px)" 
+                            type="image/webp">
+                            
+                            <source srcset="./images/mobile/Olha.jpg 1x, ./images/mobile/Olha@2x.jpg 2x" 
+                            media="(max-width: 767px)">
+
+                            <img src="images/Olha.jpg" alt="фото Ольга Рєпіна" class="team__image">
+                        </picture>
                         <h3 class="team__title">Ольга Рєпіна</h3>
                         <p class="team__post">Frontend Developer</p>
                         <ul class="social-networks">
@@ -199,7 +272,29 @@
                         </ul>
                     </li>
                     <li class="team__item">
-                        <img src="images/Koly.jpg" alt="фото Микола Тарасов" width="270" class="team__image">
+                        <picture>
+                            <source srcset="./images/Mukola-web.webp 1x, ./images/Mukola-web@2x.webp 2x" 
+                            media="(min-width: 1200px)" type="image/webp">
+                            
+                            <source srcset="./images/Mukola.jpg 1x, ./images/Mukola@2x.jpg 2x" 
+                            media="(min-width: 1200px)">
+                            
+                            <source srcset="./images/tablet/Mukola-web.webp 1x, ./images/tablet/Mukola-web@2x.webp 2x" 
+                            media="(min-width: 768px)"
+                                type="image/webp">
+                            
+                            <source srcset="./images/tablet/Mukola.jpg 1x, ./images/tablet/Mukola@2x.jpg 2x" 
+                            media="(min-width: 768px)">
+                            
+                            <source srcset="./images/mobile/Mukola-web.webp 1x, ./images/mobile/Mukola-web@2x.webp 2x" 
+                            media="(max-width: 767px)"
+                                type="image/webp">
+                            
+                            <source srcset="./images/mobile/Mukola.jpg 1x, ./images/mobile/Mukola@2x.jpg 2x" 
+                            media="(max-width: 767px)">
+                            
+                            <img src="images/Mukola.jpg" alt="фото Микола Тарасов" class="team__image">
+                        </picture>
                         <h3 class="team__title">Микола Тарасов</h3>
                         <p class="team__post">Marketing</p>
                         <ul class="social-networks">
@@ -233,7 +328,30 @@
                             </li>
                         </ul>
                     <li class="team__item">
-                        <img src="images/Misha.jpg" alt="фото Михайло Єрмаков" width="270" class="team__image">
+                        <picture>
+                            <source srcset="./images/Misha-web.webp 1x, ./images/Misha-web@2x.webp 2x" 
+                            media="(min-width: 1200px)"
+                                type="image/webp">
+                            
+                            <source srcset="./images/Misha.jpg 1x, ./images/Misha@2x.jpg 2x" 
+                            media="(min-width: 1200px)">
+                            
+                            <source srcset="./images/tablet/Misha-web.webp 1x, ./images/tablet/Misha-web@2x.webp 2x" 
+                            media="(min-width: 768px)"
+                                type="image/webp">
+                            
+                            <source srcset="./images/tablet/Misha.jpg 1x, ./images/tablet/Misha@2x.jpg 2x" 
+                            media="(min-width: 768px)">
+                            
+                            <source srcset="./images/mobile/Misha-web.webp 1x, ./images/mobile/Misha-web@2x.webp 2x"
+                             media="(max-width: 767px)"
+                                type="image/webp">
+                            
+                            <source srcset="./images/mobile/Misha.jpg 1x, ./images/mobile/Misha@2x.jpg 2x" 
+                            media="(max-width: 767px)">
+
+                            <img src="images/Misha.jpg" alt="фото Михайло Єрмаков" class="team__image">
+                        </picture>
                         <h3 class="team__title">Михайло Єрмаков</h3>
                         <p class="team__post">UI Designer</p>
                         <ul class="social-networks">
