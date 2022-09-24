@@ -425,7 +425,7 @@ body {
   background-color: #2F303A;
   text-align: center;
 }
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero-section {
     max-width: 768px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/tablet/Header\ img.jpg);
