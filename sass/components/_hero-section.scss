@@ -13,7 +13,7 @@
         max-width: 480px;
         background-image: linear-gradient(to right,
             rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)), url(../../images/mobile/Header\ img.jpg);
+            rgba(47, 48, 58, 0.4)), url(../images/mobile/Header-mobile.jpg);
         padding-top: 118px;
         padding-bottom: 118px;
     }
@@ -22,14 +22,14 @@
         screen and (min-resolution: 2dppx) and (max-width: 767px){
             background-image: linear-gradient(to right,
                 rgba(47, 48, 58, 0.4),
-                rgba(47, 48, 58, 0.4)), url(../../images/mobile/Header\ img@2x.jpg);
+                rgba(47, 48, 58, 0.4)), url(../images/mobile/Header-mobile@2x.jpg);
     }
     
     @media screen and(min-width: 768px) {
         max-width: 768px;
         background-image: linear-gradient(to right,
         rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)), url(../../images/tablet/Header\ img.jpg);
+        rgba(47, 48, 58, 0.4)), url(../images/tablet/Header-tablet.jpg);
         padding-top: 118px;
         padding-bottom: 118px;
     }
@@ -39,7 +39,7 @@
         screen and (min-resolution: 2dppx) and(min-width: 768px) {
             background-image: linear-gradient(to right,
                 rgba(47, 48, 58, 0.4),
-                rgba(47, 48, 58, 0.4)), url(../../images/tablet/Header\ img@2x.jpg);
+                rgba(47, 48, 58, 0.4)), url(../images/tablet/Header-tablet@2x.jpg);
     }
 
     @media screen and(min-width: 1200px) {
